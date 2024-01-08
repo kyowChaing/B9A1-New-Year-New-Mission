@@ -1,14 +1,90 @@
+
 *{
     margin:0;
     padding:0;
 }
 
-.banner{
+
+/* .banner-img{
    background-image: url('img/BannerImage.png');
+   background-repeat: no-repeat;
+ 
+} */
+
+.banner-card{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+    margin: 20px 100px;
+    background-image: linear-gradient(rgba(#000), rgba(#000));
+    
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
 }
 
 .banner-text{
     text-align: center;
+    position: absolute;
+    top: 140px;
+    left: 320px;
     color: #fff;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
 
+.banner-text h2{
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.welcome-party{
+    position: absolute;
+    display: flex;
+    top: 70px;
+}
+
+.welcome-party-text h3{
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+
+.welcome-party-text p{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.join-now{
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
 }
