@@ -88,3 +88,68 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 }
+
+
+/* Bonus section */
+
+.bonus-section{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+    margin: 20px 100px;
+    
+}
+
+.bonus-off{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.bonus-details{
+    margin-top: 20px;
+}
+
+.deals{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.all-category{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.bonus-img img{
+    margin: 3% 15%;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000;
+    color: #FFF;
+}
+
+hr{
+   color: #0a0a0af8;
+}
